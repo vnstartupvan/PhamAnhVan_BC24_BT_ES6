@@ -87,6 +87,12 @@ const app = {
                     <tr>
                         <td>Địa chỉ: ${info.address}</td>
                     </tr>
+                    <tr>
+                        <td>Thông tin di chuyển: ${app.inputFields.travelInfo.value}</td>
+                    </tr>
+                    <tr>
+                        <td>Tình trạng sức khỏe: ${app.inputFields.healthStatus.value}</td>
+                    </tr>
                 </tbody>
             </table>
         `
